@@ -1,3 +1,4 @@
+/* style.css */
 body {
     font-family: 'Arial', 'Helvetica Neue', sans-serif;
     background-color: #00000a; /* Even darker space */
@@ -91,11 +92,10 @@ input[type="range"] {
 .zoom-controls button:hover {
     background-color: #304070;
 }
- .zoom-controls span {
+.zoom-controls span {
     margin: 0 10px;
     color: #cce5ff;
- }
-
+}
 
 .simulation-area {
     display: flex;
@@ -149,13 +149,13 @@ input[type="range"] {
     font-style: italic;
 }
 
-/* Slider appearance */
+/* Slider appearance from previous version (minor tweaks if any) */
 input[type=range] {
     -webkit-appearance: none; margin: 10px 0; background: transparent;
 }
 input[type=range]:focus { outline: none; }
 input[type=range]::-webkit-slider-runnable-track {
-    width: 100%; height: 8px; cursor: pointer; /* animate: 0.2s; */ /* animation property not needed directly on track here */
+    width: 100%; height: 8px; cursor: pointer; animate: 0.2s;
     box-shadow: 1px 1px 1px #000000; background: #406090;
     border-radius: 5px; border: 0.2px solid #010101;
 }
